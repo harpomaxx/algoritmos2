@@ -1,6 +1,7 @@
 1. Resolver cada uno de los ejercicios del siguiente [documento](https://docs.google.com/document/d/1Jnl_FLON7ZRK7uhKih8Ke8CxMN5p3952twdBhm13280/edit)
 
-2. Subir en esta carpeta un archivo con el siguiente formato: **apellido-nombre-tp-complejidad.pdf** TODO EN MINUSCULAS
+2. Subir en esta carpeta un archivo con el siguiente formato: **apellido-nombre-tp-complejidad.pdf** 
+(TODO EN MINUSCULAS, SIN ESPACIOS, NI ACENTOS, NI EÑES, y UTILIZANDO GUION MEDIO)
 
 3. FECHA LIMITE (A DEFINIR)
 
