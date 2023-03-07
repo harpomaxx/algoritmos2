@@ -10,3 +10,9 @@ Vamos a utilizar este repositorio como medio de contacto.
 * Programa de la materia (P1)
 * Planificación de la materia (P2)
 
+## UNIDAD 1
+
+* Análisis de complejidad (slides)
+* Complejidad en Recurrencia: Método Maestro (slides)
+* Complejidad en Recurrencia: Método Maestro - Forma Completa (video)
+* Repaso de análisis de complejidad (apunte)
