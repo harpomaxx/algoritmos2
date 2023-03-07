@@ -6,7 +6,7 @@ Vamos a utilizar este repositorio como medio de contacto.
 
 ## UNIDAD 0
 * Presentación de la materia ([slides](https://docs.google.com/presentation/d/15ArMLquVuUL3D3T2DBuJ19aRLwNWYy1DXorLk1DNnvw/edit?usp=sharing))
-* Ejercicio de diagnóstico
+* Ejercicio de diagnóstico ([link](https://docs.google.com/document/d/1g-7whZx6Os7FS8osvxfiP_zTPmnbQmGRYKIyxy5avQQ/edit?usp=sharing))
 * Programa de la materia (P1)
 * Planificación de la materia (P2)
 
