@@ -1,4 +1,4 @@
-# ALGORITMOS Y ESTRUCTURAS DE DATOS II - LCC - UNCuyo
+# ALGORITMOS Y ESTRUCTURAS DE DATOS II - LCC - UNCuyo <img src="logo-algoritmos.png" align="right" alt="" width="150" />
 
 Vamos a utilizar este repositorio como medio de contacto.
 
