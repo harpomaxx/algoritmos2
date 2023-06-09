@@ -1,23 +1,23 @@
 # Direcciones fijas
-python uber.py -load_fix_element H1 <e8,20> <e10,30>
-python uber.py -load_fix_element A1 <e2,50> <e7,50>
-python uber.py -load_fix_element T5 <e2,10> <e6,40>
-python uber.py -load_fix_element H4 <e3,30> <e2,20>
-python uber.py -load_fix_element S10 <e6,25> <e7,25>
+python uber.py -load_fix_element H1 "<e8,20> <e10,30>"
+python uber.py -load_fix_element A1 "<e2,50> <e7,50>"
+python uber.py -load_fix_element T5 "<e2,10> <e6,40>"
+python uber.py -load_fix_element H4 "<e3,30> <e2,20>"
+python uber.py -load_fix_element S10 "<e6,25> <e7,25>"
 
 # Direcciones moviles
-python uber.py -load_movil_element P1 <e8,10> <e10,40> 2000
-python uber.py -load_movil_element P2 <e1,0> <e3,50> 4000
-python uber.py -load_movil_element P3 <e7,20> <e9,30> 2500
-python uber.py -load_movil_element P4 <e1,15> <e2,85> 500
-python uber.py -load_movil_element C1 <e1,10> <e4,40> 200
-python uber.py -load_movil_element C2 <e1,60> <e2,40> 50
-python uber.py -load_movil_element C3 <e2,0> <e6,50> 110
-python uber.py -load_movil_element C4 <e9,35> <e10,15> 20
-python uber.py -load_movil_element C5 <e5,10> <e7,40> 25
+python uber.py -load_movil_element P1 "<e8,10> <e10,40>" 2000
+python uber.py -load_movil_element P2 "<e1,0> <e3,50>" 4000
+python uber.py -load_movil_element P3 "<e7,20> <e9,30>" 2500
+python uber.py -load_movil_element P4 "<e1,15> <e2,85>" 500
+python uber.py -load_movil_element C1 "<e1,10> <e4,40>" 200
+python uber.py -load_movil_element C2 "<e1,60> <e2,40>" 50
+python uber.py -load_movil_element C3 "<e2,0> <e6,50>" 110
+python uber.py -load_movil_element C4 "<e9,35> <e10,15>" 20
+python uber.py -load_movil_element C5 "<e5,10> <e7,40>" 25
 
 # Crear viajes
 python uber.py -create_trip P2 H1
-python uber.py -create_trip P4 <e3,10> <e2,40>
-python uber.py -create_trip P2 <e9,50> <e10,0>
+python uber.py -create_trip P4 "<e3,10> <e2,40>"
+python uber.py -create_trip P2 "<e9,50> <e10,0>"
 
