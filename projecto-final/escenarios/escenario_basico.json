@@ -1,0 +1,46 @@
+{
+  "warehouse": {
+    "dimensiones": {"ancho_x": 18, "largo_y": 16},
+    "puertas": [
+      {"id": "PUERTA_OUT_1", "tipo": "OUTBOUND", "ubicacion": {"x": 4, "y": 0}},
+      {"id": "PUERTA_IN_1", "tipo": "INBOUND", "ubicacion": {"x": 13, "y": 0}}
+    ],
+    "zonas_despacho": [
+      {"id": "ZONA_A", "puerta_id": "PUERTA_OUT_1", "ubicacion": {"x": 2, "y": 1}, "ancho": 5, "alto": 2, "peso_max_kg": 500.0},
+      {"id": "ZONA_B", "puerta_id": "PUERTA_IN_1", "ubicacion": {"x": 11, "y": 1}, "ancho": 5, "alto": 2, "peso_max_kg": 500.0}
+    ],
+    "racks": [
+      {"id": "R1", "ubicacion": {"x": 3, "y": 5}, "ancho": 2, "alto": 6},
+      {"id": "R2", "ubicacion": {"x": 8, "y": 5}, "ancho": 2, "alto": 6},
+      {"id": "R3", "ubicacion": {"x": 13, "y": 5}, "ancho": 2, "alto": 6}
+    ],
+    "pasillos": [
+      {"id": "PAS_V0", "ubicacion": {"x": 0, "y": 5}, "ancho": 3, "alto": 6, "sentido": "N"},
+      {"id": "PAS_V1", "ubicacion": {"x": 5, "y": 5}, "ancho": 3, "alto": 6, "sentido": "S"},
+      {"id": "PAS_V2", "ubicacion": {"x": 10, "y": 5}, "ancho": 3, "alto": 6, "sentido": "N"},
+      {"id": "PAS_V3", "ubicacion": {"x": 15, "y": 5}, "ancho": 3, "alto": 6, "sentido": "S"},
+      {"id": "PAS_H_INF", "ubicacion": {"x": 0, "y": 3}, "ancho": 18, "alto": 2, "sentido": "AMBOS"},
+      {"id": "PAS_H_SUP", "ubicacion": {"x": 0, "y": 11}, "ancho": 18, "alto": 5, "sentido": "AMBOS"}
+    ]
+  },
+  "pickers": [
+    {"id": "PK_01", "posicion_inicial": {"x": 1, "y": 3}, "capacidad_carga_kg": 150.0},
+    {"id": "PK_02", "posicion_inicial": {"x": 16, "y": 3}, "capacidad_carga_kg": 100.0}
+  ],
+  "productos": [
+    {"id": "P001", "nombre": "Monitor 27",       "rack_id": "R1", "ubicacion": {"x": 3,  "y": 5,  "z": 1}, "cantidad_disponible": 20, "peso_kg": 6.5},
+    {"id": "P002", "nombre": "Teclado Mecánico", "rack_id": "R1", "ubicacion": {"x": 3,  "y": 5,  "z": 2}, "cantidad_disponible": 15, "peso_kg": 1.2},
+    {"id": "P003", "nombre": "Mouse Inalámbrico","rack_id": "R1", "ubicacion": {"x": 4,  "y": 7,  "z": 1}, "cantidad_disponible": 30, "peso_kg": 0.3},
+    {"id": "P004", "nombre": "Notebook 14",      "rack_id": "R2", "ubicacion": {"x": 8,  "y": 6,  "z": 1}, "cantidad_disponible": 10, "peso_kg": 2.1},
+    {"id": "P005", "nombre": "Auriculares",      "rack_id": "R2", "ubicacion": {"x": 9,  "y": 9,  "z": 1}, "cantidad_disponible": 25, "peso_kg": 0.4},
+    {"id": "P006", "nombre": "Impresora Láser",  "rack_id": "R3", "ubicacion": {"x": 13, "y": 8,  "z": 1}, "cantidad_disponible": 8,  "peso_kg": 9.8},
+    {"id": "P007", "nombre": "Cable HDMI",       "rack_id": "R3", "ubicacion": {"x": 14, "y": 10, "z": 1}, "cantidad_disponible": 50, "peso_kg": 0.2},
+    {"id": "P008", "nombre": "Webcam",           "rack_id": "R3", "ubicacion": {"x": 14, "y": 10, "z": 2}, "cantidad_disponible": 12, "peso_kg": 0.5}
+  ],
+  "pedidos": [
+    {"id": "PED_01", "prioridad": 5, "estado": "PENDIENTE", "items": [{"producto_id": "P001", "cantidad": 2}, {"producto_id": "P002", "cantidad": 1}]},
+    {"id": "PED_02", "prioridad": 3, "estado": "PENDIENTE", "items": [{"producto_id": "P003", "cantidad": 2}, {"producto_id": "P005", "cantidad": 1}]},
+    {"id": "PED_03", "prioridad": 4, "estado": "PENDIENTE", "items": [{"producto_id": "P004", "cantidad": 1}, {"producto_id": "P006", "cantidad": 1}, {"producto_id": "P008", "cantidad": 3}]}
+  ],
+  "configuracion": {"wave_max_pedidos": 3, "wave_max_productos": 15}
+}
